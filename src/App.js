@@ -37,7 +37,7 @@ class App extends Component {
         <div>
           <Header />
           <div id='home'>
-            <img className='fadeIn2' src="/images/coding.jpg" alt="" />
+            <img className='fadeIn2' src="/myportfolio/images/coding.jpg" alt="" />
             <p className='home-alert fadeIn3'>Some pixels<br /> <span>of</span> me</p>
           </div >
           <Portfolio
