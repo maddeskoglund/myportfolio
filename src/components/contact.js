@@ -12,7 +12,7 @@ class Contact extends Component {
 
                     <Header />
                     <div className='container-fluid'>
-                        <img src="/images/contact.jpg" alt="" />
+                        <img src="/myportfolio/images/contact.jpg" alt="" />
                     </div>
 
                     <div className='container'>

@@ -11,7 +11,7 @@ class Cv extends Component {
                     <Header />
 
                     <div className='container-fluid'>
-                        <img src="/images/cv.jpg" alt="" />
+                        <img src="/myportfolio/images/cv.jpg" alt="" />
                     </div>
 
                     <div className='container'>

@@ -10,7 +10,7 @@ class About extends Component {
                     <Header />
 
                     <div className='container-fluid'>
-                        <img src="/images/about.jpg" alt="" />
+                        <img src="/myportfolio/images/about.jpg" alt="" />
                     </div>
 
                     <div className='container'>
