@@ -13,8 +13,6 @@ import Whoops from './components/whoops';
 
 render((
 
-
-
     <BrowserRouter>
         <Switch>
             <Route exact path={process.env.PUBLIC_URL + '/'} component={App} />
@@ -28,7 +26,3 @@ render((
 
 ), document.getElementById('root'));
 registerServiceWorker();
-
-
-
-// ReactDOM.render(<App />, document.getElementById('root'));

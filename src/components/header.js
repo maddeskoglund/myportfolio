@@ -16,18 +16,18 @@ class Header extends Component {
                 <div className='container'>
                     <span className='brand'><Link to='/'> <b>Madelein</b>&nbsp;Skoglund</Link></span>
                     <ul className="nav desktop-nav">
-                        <li><Link to='/'> Hem </Link></li>
-                        <li><Link to='/#portfolio'>Portfolio </Link></li>
-                        <li><Link to='/cv'> CV </Link></li>
-                        <li><Link to='/about'> Om mig </Link></li>
-                        <li><Link to='/contact'> Kontakt </Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + '/'}> Hem </Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + '/#portfolio'}>Portfolio </Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + '/cv'}> CV </Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + '/about'}> Om mig </Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + '/contact'}> Kontakt </Link></li>
                     </ul>
                     <Menu right={true} width={200} className={'mobile-nav'}>
-                        <Link to='/'>Hem</Link>
-                        <Link to='/#portfolio'>Portfolio</Link>
-                        <Link to='/cv'>CV</Link>
-                        <Link to='/about'>Om mig</Link>
-                        <Link to='/contact'>Kontakt</Link>
+                        <Link to={process.env.PUBLIC_URL + '/'}> Hem</Link>
+                        <Link to={process.env.PUBLIC_URL + '/#portfolio'}> Portfolio</Link>
+                        <Link to={process.env.PUBLIC_URL + '/cv'}> CV</Link>
+                        <Link to={process.env.PUBLIC_URL + '/about'}> Om mig</Link>
+                        <Link to={process.env.PUBLIC_URL + '/contact'}> Kontakt</Link>
                         <a onClick={this.showSettings} className="menu-item--small" href=""> </a>
                     </Menu>
                 </div >
