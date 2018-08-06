@@ -514,11 +514,6 @@ width: 45%;
   padding-top: 50px;
 }
 
-html, body {
-  overflow: hidden;
-}
-
-
   /* header */
 .header .desktop-nav {
   display: none;
@@ -697,11 +692,6 @@ and (max-width : 1024px)  {
   font-size: 2rem;
   padding-top: 50px;
 }
-
-html, body {
-  overflow: hidden;
-}
-
 
   /* header */
 .header .desktop-nav {

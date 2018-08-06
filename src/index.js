@@ -17,10 +17,10 @@ render((
 
     <BrowserRouter>
         <Switch>
-            <Route exact path='/' component={App} />
-            <Route path='/about' component={About} />
-            <Route path='/contact' component={Contact} />
-            <Route path='/cv' component={Cv} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={App} />
+            <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
+            <Route path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
+            <Route path={process.env.PUBLIC_URL + '/cv'} component={Cv} />
             <Route component={Whoops} />
         </Switch>
 
