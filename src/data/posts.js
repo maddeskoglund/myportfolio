@@ -5,7 +5,7 @@ const posts = [
         caption: "HTML CSS Bootstrap Durandal Knockout",
         info: "Mitt första projekt hos Eventful. En av deras samarbetspartners behövde en uppfräschning av deras sida. Temat skulle vara flatdesign, se snyggt och livfullt ut, och fortfarande inge förtroende för företaget. Började projektet med att göra mockup i Illustrator och diskutera detta med kunden. Jag har själv varit missnöjd många gånger och testat mig fram med olika stilar. Jag har använt google och youtube mycket för att hämta inspiration.",
         milestone: "Jag har lärt mig otroligt mycket i det här projektet. Jag har jobbat tätt tillsammans med min kollega Mikael Nilsson på Eventful. Mikael har gjort mestadels gjort saker i bakgrunden, han tagit hand om databaser, flytt av sidan, svårare programmeringsbitar och headern. Resten har jag gjort om och snyggat till. Mer information om Acedu finns i min examensrapport. De hinder vi haft på vägen har varit att få till en snygg design. Vi har haft fria händer gällande färger, bilder och utseende. Vilket gör det svårare tycker jag, men en stor lärdom jag tar med mig är att små detaljer spelar väldigt stor roll. Här har jag också träffat på jQuery för första gången.",
-        image: '/myportfolio/images/responsive-acedu.png',
+        image: '/myportfolio/images/acedu.jpg',
         responsive: '/myportfolio/images/responsive-acedu.png',
         // url: ''
     },
