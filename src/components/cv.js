@@ -20,9 +20,14 @@ class Cv extends Component {
                             <div className='cv-left col-md-6'>
                                 <h2 className='work-exp'>Arbetserfarenhet</h2>
 
+                                <h3>Eventful, <i>Frontend Utvecklare</i></h3>
+                                <p className='date'>September 2018 - </p>
+                                <p className='work-p'>Mitt första jobb i en helt ny bransch. Så spännande och en så rolig arbetsplats. Här går allt i högt tempo och arbetsuppgifterna varierar otroligt från vecka till vecka. </p>
+
+
                                 <h3>Smode Webbyrå, <i>Praktik</i></h3>
-                                <p className='date'>Juni 2018 - </p>
-                                <p className='work-p'>Har nyligen påbörjat min praktik på Smode webbyrå i Enköping. Blir otroligt bra omhändertagen och känner att jag får testa vingarna själv och ta mig an riktiga saker. Kim som är min handledare är otroligt kunnig och jag suger åt mig allt jag kan.</p>
+                                <p className='date'>Juni 2018 - Augusti 2018</p>
+                                <p className='work-p'>Praktikplats på Smode webbyrå i Enköping. Blev otroligt bra omhändertagen och kände att jag fick testa vingarna själv och ta mig an riktiga saker. Kim som är min handledare är otroligt kunnig och jag fick med mig mycket från dem.</p>
 
                                 <h3>Rönnmarks Undertak, <i>Kalkylator</i></h3>
                                 <p className='date'>Oktober 2013 - Augusti 2017</p>
